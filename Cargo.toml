@@ -1,0 +1,15 @@
+[package]
+name = "winsearch"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nimish Mohan M"]
+description = "A  Multi tool to search on various parameters specific to windows OS"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+walkdir = "2.3.1"
+clap = { version = "3.1.6", features = ["derive"] }
+bytesize = "1.1.0"
+regex = "1"
+
